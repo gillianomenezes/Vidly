@@ -30,8 +30,8 @@ namespace Vidly.Controllers
 
         public ActionResult Details(int id)
         {
-            
-            return 
+
+            return View();            
         }
     }
 }
