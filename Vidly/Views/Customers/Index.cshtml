@@ -1,0 +1,18 @@
+﻿@model Vidly.ViewModel.CustomersViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table>
+    <tr>
+        <th>Customer</th>
+    </tr>
+        @foreach (Vidly.Models.Customer customer in Model.Customers)
+        {
+            <tr>
+                <td>@Html.ActionLink(customer.Name,"Details","Customers", new { id = 1})</td>
+            </tr>
+        }
+</table>
