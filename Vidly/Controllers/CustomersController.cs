@@ -16,8 +16,8 @@ namespace Vidly.Controllers
 
             var customers = new List<Customer>
             {
-                new Customer() { Name = "customer 1" },
-                new Customer() { Name = "customer 2"}
+                new Customer() { Name = "customer 1", Id = 1 },
+                new Customer() { Name = "customer 2", Id = 2}
             };
 
             CustomersViewModel customersViewModel = new CustomersViewModel()
@@ -30,8 +30,7 @@ namespace Vidly.Controllers
 
         public ActionResult Details(int id)
         {
-
-            return View();            
+            return Content("id=" + id);            
         }
     }
 }

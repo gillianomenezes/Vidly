@@ -12,7 +12,7 @@
         @foreach (Vidly.Models.Customer customer in Model.Customers)
         {
             <tr>
-                <td>@Html.ActionLink(customer.Name,"Details","Customers", new { id = 1})</td>
+                <td>@Html.ActionLink(customer.Name,"Details","Customers", new { id = customer.Id}, null)</td>
             </tr>
         }
 </table>
