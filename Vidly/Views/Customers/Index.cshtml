@@ -5,14 +5,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<table>
-    <tr>
-        <th>Customer</th>
-    </tr>
-        @foreach (Vidly.Models.Customer customer in Model.Customers)
-        {
-            <tr>
-                <td>@Html.ActionLink(customer.Name,"Details","Customers", new { id = customer.Id}, null)</td>
-            </tr>
-        }
-</table>
+<h1>Customers</h1>
+
+@if (Model.Customers.Count > 0)
+{
+    <table class="table table-bordered	table-hover">
+        <tr>
+            <th>Customers</th>
+        </tr>
+            @foreach (Vidly.Models.Customer customer in Model.Customers)
+            {
+                <tr>
+                    <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+                </tr>
+            }
+    </table>
+}
+else
+{
+    <h3>We don't have any customers yet.</h3>
+}
