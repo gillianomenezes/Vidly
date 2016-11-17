@@ -136,3 +136,6 @@ D:\gilliano\workspace\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.x
 D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.dll
 D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.pdb
+D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribdToNewsletter.resources
