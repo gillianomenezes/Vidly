@@ -204,6 +204,10 @@
     <Compile Include="Migrations\201611220104075_PopulateGenres.Designer.cs">
       <DependentUpon>201611220104075_PopulateGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611221425012_UpdateCustomer.cs" />
+    <Compile Include="Migrations\201611221425012_UpdateCustomer.Designer.cs">
+      <DependentUpon>201611221425012_UpdateCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -277,6 +281,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customers\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -310,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611220104075_PopulateGenres.resx">
       <DependentUpon>201611220104075_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611221425012_UpdateCustomer.resx">
+      <DependentUpon>201611221425012_UpdateCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,4 +7,8 @@
 }
 
 <h1>@Model.Name</h1>
+@if(Model.BirthDate.HasValue)
+{
+    <p>BirthDate: @Model.BirthDate.Value.ToShortDateString()</p>
+}
 

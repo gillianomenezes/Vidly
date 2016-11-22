@@ -219,3 +219,6 @@ D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipT
 D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenre.resources
 D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
+C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenre.resources
+C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
+C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateCustomer.resources
