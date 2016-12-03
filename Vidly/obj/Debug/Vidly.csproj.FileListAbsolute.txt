@@ -223,3 +223,6 @@ C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrat
 C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
 C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateCustomer.resources
 C:\Users\neuroup\Documents\vs_workspace\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
+D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateCustomer.resources
+D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
+D:\gilliano\workspace\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenres.resources

@@ -24,24 +24,36 @@ namespace Vidly.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(Customer customer)
+        public ActionResult Save(Customer customer)
         {
-            _context.Customers.Add(customer);
+            if(customer.Id == 0)
+                _context.Customers.Add(customer);
+            else
+            {
+                var customerdb = _context.Customers.Single(c => c.Id == customer.Id);
+
+                customerdb.BirthDate = customer.BirthDate;
+                customerdb.IsSubscribedToNewsletter = customer.IsSubscribedToNewsletter;
+                customerdb.MembershipType = customer.MembershipType;
+                customerdb.MembershipTypeId = customer.MembershipTypeId;
+                customerdb.Name = customer.Name;
+            }
+
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Customers");
         }
 
-        public ActionResult New()
+        public ActionResult CustomerForm()
         {
             var membershipTypes = _context.MembershipTypes;
 
-            var newCustomerViewModel = new NewCustomerViewModel
+            var CustomerFormViewModel = new CustomerFormViewModel
             {
                 MembershipTypes = membershipTypes
             };
 
-            return View(newCustomerViewModel);
+            return View(CustomerFormViewModel);
         }
 
         // GET: Customers
@@ -64,6 +76,22 @@ namespace Vidly.Controllers
             {
                 return HttpNotFound();
             }
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
+
+            if (customer == null)
+                return HttpNotFound();
+
+            var customerForm = new CustomerFormViewModel
+            {
+                Customer = customer,
+                MembershipTypes = _context.MembershipTypes.ToList()
+            };
+
+            return View("CustomerForm", customerForm);
         }
 
         private IEnumerable<Customer> GetCustomers()

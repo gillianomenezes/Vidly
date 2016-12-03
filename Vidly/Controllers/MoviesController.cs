@@ -51,5 +51,20 @@ namespace Vidly.Controllers
 
             return movies;
         }
+
+        public ActionResult New()
+        {
+            var movieFormView = new MovieFormViewModel
+            {
+                Genres = _context.Genres
+            };
+
+            return View("MovieForm", movieFormView);
+        }
+
+        public ActionResult Save()
+        {
+            return View();
+        }
     }
 }

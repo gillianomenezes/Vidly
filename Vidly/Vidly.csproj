@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201611231507001_AddMembershipTypeName.Designer.cs">
       <DependentUpon>201611231507001_AddMembershipTypeName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612032216234_AddGenres.cs" />
+    <Compile Include="Migrations\201612032216234_AddGenres.Designer.cs">
+      <DependentUpon>201612032216234_AddGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -222,7 +226,8 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModel\NewCustomerViewModel.cs" />
+    <Compile Include="ViewModel\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModel\MovieFormViewModel.cs" />
     <Compile Include="ViewModel\MoviesViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -286,7 +291,8 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
-    <Content Include="Views\Customers\New.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -326,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611231507001_AddMembershipTypeName.resx">
       <DependentUpon>201611231507001_AddMembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612032216234_AddGenres.resx">
+      <DependentUpon>201612032216234_AddGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
