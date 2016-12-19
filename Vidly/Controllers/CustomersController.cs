@@ -26,6 +26,17 @@ namespace Vidly.Controllers
         [HttpPost]
         public ActionResult Save(Customer customer)
         {
+            if(!ModelState.IsValid)
+            {
+                var customerViewModel = new CustomerFormViewModel
+                {
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
+                };
+
+                return View("CustomerForm", customerViewModel);
+            }
+
             if(customer.Id == 0)
                 _context.Customers.Add(customer);
             else
@@ -43,19 +54,7 @@ namespace Vidly.Controllers
 
             return RedirectToAction("Index", "Customers");
         }
-
-        public ActionResult CustomerForm()
-        {
-            var membershipTypes = _context.MembershipTypes;
-
-            var CustomerFormViewModel = new CustomerFormViewModel
-            {
-                MembershipTypes = membershipTypes
-            };
-
-            return View(CustomerFormViewModel);
-        }
-
+        
         // GET: Customers
         public ActionResult Index()
         {
@@ -99,6 +98,17 @@ namespace Vidly.Controllers
             var customers = _context.Customers;
 
             return customers;
+        }
+
+        public ActionResult New()
+        {
+            var custormeFormModelView = new CustomerFormViewModel
+            {
+                Customer = new Customer(),
+                MembershipTypes = _context.MembershipTypes.ToList()
+            };
+
+            return View("CustomerForm", custormeFormModelView);
         }
     }
 }
