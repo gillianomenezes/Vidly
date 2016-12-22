@@ -69,9 +69,8 @@ namespace Vidly.Controllers
             if (movie == null)
                 return HttpNotFound();
 
-            var movieFormViewModel = new MovieFormViewModel
+            var movieFormViewModel = new MovieFormViewModel(movie)
             {
-                Movie = movie,
                 Genres = _context.Genres.ToList()
             };
 
