@@ -316,3 +316,11 @@ C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\bin\AutoMapper.dll
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\bin\AutoMapper.xml
+D:\gilliano\workspace\Vidly\Vidly\bin\AutoMapper.dll
+D:\gilliano\workspace\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+D:\gilliano\workspace\Vidly\Vidly\bin\System.Web.Http.dll
+D:\gilliano\workspace\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+D:\gilliano\workspace\Vidly\Vidly\bin\AutoMapper.xml
+D:\gilliano\workspace\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+D:\gilliano\workspace\Vidly\Vidly\bin\System.Web.Http.xml
+D:\gilliano\workspace\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
