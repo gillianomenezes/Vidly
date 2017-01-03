@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using Vidly.Models;
 
 namespace Vidly.Dtos
 {
@@ -25,6 +26,6 @@ namespace Vidly.Dtos
         public byte? NumberInStock { get; set; }
                 
         [Required]
-        public int GenreId { get; set; }
+        public GenreDto Genre { get; set; }
     }
 }
