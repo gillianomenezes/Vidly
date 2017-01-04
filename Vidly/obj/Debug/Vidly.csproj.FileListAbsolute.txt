@@ -324,3 +324,4 @@ D:\gilliano\workspace\Vidly\Vidly\bin\AutoMapper.xml
 D:\gilliano\workspace\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 D:\gilliano\workspace\Vidly\Vidly\bin\System.Web.Http.xml
 D:\gilliano\workspace\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.seedUsers.resources
