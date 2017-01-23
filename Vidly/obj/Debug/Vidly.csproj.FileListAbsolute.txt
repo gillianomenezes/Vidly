@@ -309,6 +309,7 @@ C:\Users\Gilliano\Source\Repos\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribdToNewsletter.resources
 C:\Users\Gilliano\Source\Repos\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
